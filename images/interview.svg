@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 501 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="interview" transform="matrix(1,0,0,1,889.52,83.3352)">
+        <rect x="-889.52" y="-83.335" width="500.051" height="500.051" style="fill:none;"/>
+        <g id="interviews" transform="matrix(0.70467,0,0,0.70467,-819.891,-13.7052)">
+            <path d="M496,112L448,112C443.747,111.975 439.66,113.645 436.64,116.64L409.44,144L384,144L384,128C384,101.49 362.51,80 336,80L48,80C21.49,80 0,101.49 0,128L0,384C0,410.51 21.49,432 48,432L336,432C362.51,432 384,410.51 384,384L384,368L409.44,368L436.8,395.36C439.78,398.316 443.803,399.982 448,400L496,400C504.837,400 512,392.837 512,384L512,128C512,119.163 504.837,112 496,112ZM480,368L454.56,368L427.2,340.64C424.22,337.684 420.197,336.018 416,336L368,336C359.163,336 352,343.163 352,352L352,384C352,392.837 344.837,400 336,400L48,400C39.163,400 32,392.837 32,384L32,128C32,119.163 39.163,112 48,112L336,112C344.837,112 352,119.163 352,128L352,288L384,288L384,176L416,176C420.253,176.025 424.341,174.355 427.36,171.36L454.56,144L480,144L480,368Z" style="fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
