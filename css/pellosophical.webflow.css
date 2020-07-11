@@ -108,6 +108,11 @@ img {
   margin-left: 1em;
 }
 
+.btn.white {
+  background-color: #fff;
+  color: #000;
+}
+
 .nav {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -243,6 +248,22 @@ img {
   background-size: auto, cover;
 }
 
+.ft-works--single.ununu {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #121418;
+  color: #fff;
+  text-align: right;
+}
+
 .white {
   color: #fff;
 }
@@ -342,6 +363,14 @@ img {
   background-image: url('../images/nhla.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-cover.ununu {
+  background-color: #121418;
+  background-image: url('../images/ununu-wave.svg');
+  background-position: 50% 50%;
+  background-size: 72%;
   background-repeat: no-repeat;
 }
 
@@ -537,6 +566,10 @@ img {
   font-size: 0.5em;
 }
 
+.slider-dots.hide {
+  display: none;
+}
+
 .wrap.animate.mt-3 {
   margin-top: 3em;
 }
@@ -578,6 +611,10 @@ img {
 
 .slider--arrow {
   font-size: 0.75em;
+}
+
+.bsides {
+  padding-bottom: 2rem;
 }
 
 .splash {
@@ -628,6 +665,41 @@ img {
 
 .border:hover {
   line-height: 1.8;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+.plr-1 {
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.hero {
+  padding-top: 16vh;
+  padding-bottom: 8vh;
+}
+
+.image {
+  display: block;
+  width: 160px;
+}
+
+.ununulogo {
+  width: 20rem;
+  max-width: 24rem;
+  margin-left: 4vw;
+}
+
+@media screen and (max-width: 991px) {
+  .ununulogo {
+    width: 16rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -695,6 +767,14 @@ img {
   .heading {
     font-size: 1.5em;
   }
+  .hero {
+    padding-top: 8vh;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+  .ununulogo {
+    width: 8rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -703,6 +783,21 @@ img {
   }
   .btn.ml-1 {
     margin-left: 0em;
+  }
+  .ft-works--info.pl-2 {
+    padding-left: 1rem;
+  }
+  .ft-works--single.ununu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    text-align: left;
   }
   .project-cover {
     height: 48vh;
@@ -745,6 +840,12 @@ img {
   }
   .heading-2 {
     font-size: 0.875em;
+  }
+  .hero {
+    padding-top: 8vh;
+  }
+  .ununulogo {
+    margin-left: 0vw;
   }
 }
 
